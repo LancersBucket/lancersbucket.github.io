@@ -6,3 +6,4 @@ vendor
 *.code-workspace
 temp.txt
 .vscode
+assets/images/photos/*

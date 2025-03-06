@@ -33,7 +33,7 @@ github: [metadata]
 title: bucketsite
 description: >- # this means to ignore newlines until "next tag:"
   LancersBucket's Website
-baseurl:
+baseurl: ""
 url: https://bucketsite.com # the base hostname & protocol for your site, e.g. http://example.com
 
 # Disable the feed in the footer
