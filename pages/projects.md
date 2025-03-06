@@ -23,6 +23,5 @@ projects:
     excerpt: "A simple music playing application designed to shuffle your music.<br>Language: Python <br><br> [Source Code](https://github.com/LancersBucket/Shuffle--){:target='_blank' .btn .btn--primary .btn--large}"
 ---
 
-# Projects
 {% include feature_row id="projects" %}
 
