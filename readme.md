@@ -1,1 +1,1 @@
-https://lancersbucket.github.io
+https://bucketsite.com
