@@ -12,7 +12,7 @@ projects:
     #image_path: "https://img.itch.zone/aW1nLzEyMTc0NTIzLnBuZw==/315x250%23c/TzYBG0.png" #/assets/images/projects/ratandthehat.png
     #alt: "The Rat And The Hat"
   - title: "bucketsite.com"
-    excerpt: "The website that hosts everything you need to know about me. <br>![](https://img.shields.io/website/http/lancersbucket.github.io?up_color=green&down_color=red&label=bucketsite.com%20Status) <br>Language: Ruby <br><br> [Live Demo](https://bucketsite.com){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/lancersbucket.github.io){:target='_blank' .btn .btn--primary .btn--large}"
+    excerpt: "The website that hosts everything you need to know about me. <br>![](https://img.shields.io/website/http/lancersbucket.github.io?up_color=green&down_color=red&label=bucketsite.com%20Status) <br><br> [Live Demo](https://bucketsite.com){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/lancersbucket.github.io){:target='_blank' .btn .btn--primary .btn--large}"
     #image_path: /assets/images/projects/github-io.png
     #alt: "lancersbucket.github.io"
   - title: "Sodium"
