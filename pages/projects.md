@@ -8,7 +8,7 @@ author_profile: true
 title: "Projects"
 projects:
   - title: "Bulk Image Sorter"
-    excerpt: "A program designed to assist organizing photos.[Source Code](https://github.com/LancersBucket/bulk-image-sorter){:target='_blank' .btn .btn--primary .btn--large}"
+    excerpt: "A program designed to assist organizing photos. <br>Language: Python<br><br>[Source Code](https://github.com/LancersBucket/bulk-image-sorter){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "bucketsite.com"
     excerpt: "The website that hosts everything you need to know about me. <br>![](https://img.shields.io/website/http/lancersbucket.github.io?up_color=green&down_color=red&label=bucketsite.com%20Status) <br><br> [Live Demo](https://bucketsite.com){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/lancersbucket.github.io){:target='_blank' .btn .btn--primary .btn--large}"
     #image_path: /assets/images/projects/github-io.png
