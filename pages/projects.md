@@ -7,16 +7,18 @@ permalink: /projects/
 author_profile: true
 title: "Projects"
 projects:
-  - title: "The Rat And The Hat"
-    excerpt: "A game made for [Go Godot Jam 4 (2023)](https://itch.io/jam/go-godot-jam-4){:target='_blank'} on itch.io. <br> - Lead Programmer<br>Language: GDScript <br><br> [Live Demo](https://itch.io/jam/go-godot-jam-4/rate/2070002){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/GodotGame){:target='_blank' .btn .btn--primary .btn--large}"
-    #image_path: "https://img.itch.zone/aW1nLzEyMTc0NTIzLnBuZw==/315x250%23c/TzYBG0.png" #/assets/images/projects/ratandthehat.png
-    #alt: "The Rat And The Hat"
+  - title: "Bulk Image Sorter"
+    excerpt: "A program designed to assist organizing photos.[Source Code](https://github.com/LancersBucket/bulk-image-sorter){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "bucketsite.com"
     excerpt: "The website that hosts everything you need to know about me. <br>![](https://img.shields.io/website/http/lancersbucket.github.io?up_color=green&down_color=red&label=bucketsite.com%20Status) <br><br> [Live Demo](https://bucketsite.com){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/lancersbucket.github.io){:target='_blank' .btn .btn--primary .btn--large}"
     #image_path: /assets/images/projects/github-io.png
     #alt: "lancersbucket.github.io"
   - title: "Sodium"
     excerpt: "A lightweight segment based music cutter. <br>Language: Python<br><br>[Source Code](https://github.com/LancersBucket/sodium){:target='_blank' .btn .btn--primary .btn--large}"
+  - title: "The Rat And The Hat"
+    excerpt: "A game made for [Go Godot Jam 4 (2023)](https://itch.io/jam/go-godot-jam-4){:target='_blank'} on itch.io. <br> - Lead Programmer<br>Language: GDScript <br><br> [Live Demo](https://itch.io/jam/go-godot-jam-4/rate/2070002){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/GodotGame){:target='_blank' .btn .btn--primary .btn--large}"
+    #image_path: "https://img.itch.zone/aW1nLzEyMTc0NTIzLnBuZw==/315x250%23c/TzYBG0.png" #/assets/images/projects/ratandthehat.png
+    #alt: "The Rat And The Hat"
   - title: "Mythril"
     excerpt: "A purpose built D&D music player<br>Language: Python<br><br>[Source Code](https://github.com/LancersBucket/mythril){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "Shuffle--"
