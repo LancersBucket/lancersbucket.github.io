@@ -49,10 +49,10 @@ email: freya.glick@gmail.com
 
 # Site Author
 author:
-  name             : "Freya Glick"
+  name             : "Freya Glick (Bucket)"
   avatar           : "/assets/images/bio/bio.jpg"
-  bio              : 'The day may be over but there is still more coding to do<br>
-                      she/her'
+  bio              : 'The day may be over but there is still more coding to do.<br>
+                      [she/her](/pronouns)'
   email            :
   links:
     - label: "Email"
