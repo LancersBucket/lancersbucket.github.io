@@ -20,6 +20,7 @@
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -30,18 +31,18 @@ livereload: true
 github: [metadata]
 
 # Search Engine Information
-title: lancersbucket.github.io
+title: bucketsite
 description: >- # this means to ignore newlines until "next tag:"
   LancersBucket's Website
 baseurl:
-url: https://lancersbucket.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://bucketsite.com # the base hostname & protocol for your site, e.g. http://example.com
 
 # Disable the feed in the footer
 atom_feed:
   hide: true
 
 # Header
-masthead_title: "lancersbucket.github.io"
+masthead_title: "bucketsite"
 
 # Footer
 name: Freya Glick
@@ -49,10 +50,10 @@ email: freya.glick@gmail.com
 
 # Site Author
 author:
-  name             : "Freya Glick"
+  name             : "Freya Glick (Bucket)"
   avatar           : "/assets/images/bio/bio.jpg"
-  bio              : 'The day may be over but there is still more coding to do<br>
-                      she/her'
+  bio              : 'The day may be over but there is still more coding to do.<br>
+                      [she/her](/pronouns)'
   email            :
   links:
     - label: "Email"
