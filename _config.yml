@@ -33,7 +33,7 @@ github: [metadata]
 # Search Engine Information
 title: bucketsite
 description: >- # this means to ignore newlines until "next tag:"
-  LancersBucket's Website
+  A showcase of my CS projects, mixed with the occasional blog post on whatever I find interesting at the time.
 baseurl:
 url: https://bucketsite.com # the base hostname & protocol for your site, e.g. http://example.com
 
