@@ -4,6 +4,7 @@ classes: pronouns
 permalink: /pronouns/
 author_profile: true
 title: ""
+excerpt: "My pronouns."
 ---
 
 <div style="display: flex; justify-content: center; align-items: start; gap: 2rem;">

@@ -3,6 +3,7 @@ layout: single
 classes:
   - wide
   - misc
+excerpt: "A showcase of all my CS projects over the years."
 permalink: /projects/
 author_profile: true
 title: "Projects"
