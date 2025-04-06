@@ -1,6 +1,6 @@
 ---
 layout: tags
 title: "Posts Sorted By Tags"
-permalink: /blog/tags
+permalink: /blog/tags/
 author_profile: true
 ---
