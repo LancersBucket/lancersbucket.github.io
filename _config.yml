@@ -94,3 +94,20 @@ defaults:
       comments: false
       share: false
       related: false
+      permalink: /blog/:year/:month/:day/:title/
+      toc: true
+      toc_sticky: true
+      show_tags: true
+  - scope:
+      path: "_drafts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+      permalink: /blog/:year/:month/:day/:title/
+      toc: true
+      toc_sticky: true
+      show_tags: true
