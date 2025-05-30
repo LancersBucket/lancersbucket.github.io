@@ -14,7 +14,6 @@ excerpt: "My pronouns."
         <span style="color: #adb5bd"><i class="fa fa-solid fa-thumbs-down"></i> they/them</span><br>
         <span style="color: #adb5bd"><i class="fa fa-solid fa-thumbs-down"></i> he/him</span><br>
     </div>
-    
     <div>
         <h1><i class="fa fa-scroll fa-fw"></i> Words</h1>
         <strong>Honorifics</strong><br>

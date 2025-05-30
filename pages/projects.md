@@ -8,6 +8,8 @@ permalink: /projects/
 author_profile: true
 title: "Projects"
 p2025:
+  - title: "Toggle Silent Messages"
+    excerpt: "A [BetterDiscord](https://betterdiscord.app/) plugin that adds a button to toggle sending silent messages. <br>Language: JavaScript<br><br>[Source Code](https://github.com/LancersBucket/ToggleSilentMessages){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "Bulk Image Sorter"
     excerpt: "A program designed to assist organizing photos. <br>Language: Python<br><br>[Source Code](https://github.com/LancersBucket/bulk-image-sorter){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "bucketsite.com"
@@ -29,19 +31,19 @@ p2023:
 ---
 
 <style>
-  h2 {
-    font-size: 1.563em;
-    margin-top: 0px;
-  }
-  .feature__wrapper {
-    border-bottom: none;
-  }
-  .page__title {
-    margin-bottom: 1.5em;
-  }
-  .archive__item-title {
-    font-size: 1.25em;
-  }
+    h2 {
+        font-size: 1.563em;
+        margin-top: 0px;
+    }
+    .feature__wrapper {
+        border-bottom: none;
+    }
+    .page__title {
+        margin-bottom: 1.5em;
+    }
+    .archive__item-title {
+        font-size: 1.25em;
+    }
 </style>
 
 ## 2025
