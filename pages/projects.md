@@ -8,6 +8,8 @@ permalink: /projects/
 author_profile: true
 title: "Projects"
 p2025:
+  - title: "Call Confirmations"
+    excerpt: "A [BetterDiscord](https://betterdiscord.app/) plugin that provides call confirmations for Discord. <br>Language: JavaScript<br><br>[Source Code](https://github.com/LancersBucket/CallConfirmations){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "Toggle Silent Messages"
     excerpt: "A [BetterDiscord](https://betterdiscord.app/) plugin that adds a button to toggle sending silent messages. <br>Language: JavaScript<br><br>[Source Code](https://github.com/LancersBucket/ToggleSilentMessages){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "Bulk Image Sorter"

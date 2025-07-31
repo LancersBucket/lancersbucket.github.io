@@ -4,6 +4,7 @@ permalink: "/"
 author_profile: true
 title: About Me
 classes: wide
+excerpt: "Welcome to bucketsite.com!"
 ---
 
 <head>
