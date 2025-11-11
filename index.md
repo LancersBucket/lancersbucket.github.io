@@ -11,7 +11,7 @@ excerpt: "Welcome to bucketsite.com!"
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 
-19 year old Computer Science student at West Chester University.
+20 year old Computer Science student at West Chester University.
 
 Languages I work with:
 - GDScript
