@@ -16,8 +16,8 @@ p2025:
     excerpt: "A program designed to assist organizing photos. <br>Language: Python<br><br>[Source Code](https://github.com/LancersBucket/bulk-image-sorter){:target='_blank' .btn .btn--primary .btn--large}"
   - title: "bucketsite.com"
     excerpt: "The website that hosts everything you need to know about me. <br>![](https://img.shields.io/website/https/bucketsite.com?up_color=green&down_color=red&label=bucketsite.com%20Status) <br><br> [Live Demo](https://bucketsite.com){:target='_blank' .btn .btn--primary .btn--large} [Source Code](https://github.com/LancersBucket/lancersbucket.github.io){:target='_blank' .btn .btn--primary .btn--large}"
-  - title: "Chat Buttons Begone!"
-    excerpt: "A configurable [BetterDiscord](https://betterdiscord.app/) plugin to remove UI clutter around Discord. <br>Language: JavaScript<br><br>[Source Code](https://github.com/LancersBucket/plugin-RemoveChatButtons){:target='_blank' .btn .btn--primary .btn--large}"
+  - title: "ChatButtonsBegone"
+    excerpt: "A configurable [BetterDiscord](https://betterdiscord.app/) plugin to remove UI clutter around Discord. <br>Language: JavaScript<br><br>[Source Code](https://github.com/LancersBucket/ChatButtonsBegone){:target='_blank' .btn .btn--primary .btn--large}"
 
 p2024:
   - title: "Sodium"
