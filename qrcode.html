@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>QR Code Generator</title>
+    <script src="assets/js/qrcode.js"></script>
+    <script type="text/javascript" src="/assets/js/qrcode.js"></script>
+</head>
+
+<body>
+    <div id="input">
+        <input id="text" type="text" value="https://bucketsite.com/qrcode" style="width:80%"/>
+        <div>Scale: <input id="scale" type="number" value="1" min="1" step="0.5"/>Margin: <input id="margin" type="number" value="2" min="0" step="1"/></div>
+        <div>Error Correction: 
+            <select name="Error Correction" id="ecc">
+                <option value="L">Low (~7%)</option>
+                <option value="M" selected="true">Medium (~15%)</option>
+                <option value="Q">Quartile (~25%)</option>
+                <option value="H">High (~30%)</option>
+            </select>
+        </div>
+    </div>
+    <br/>
+    <div id="qrcode"></div>
+
+    <script type="text/javascript">
+        async function makeCode () {
+            var text = document.getElementById("text").value;
+            if (!text) return;
+
+            var scale = document.getElementById("scale").value;
+
+            if (scale % 0.5 != 0 || scale <= 0) {
+                var err = document.createElement('div');
+                err.innerHTML = "Invalid Scale";
+                document.getElementById('qrcode').appendChild(err);
+                return;
+            }
+
+            var margin = document.getElementById("margin").value;
+
+            if (margin % 1 != 0) {
+                var err = document.createElement('div');
+                err.innerHTML = "Invalid Margin"
+                document.getElementById('qrcode').appendChild(err);
+                return;
+            }
+
+            var ecc = document.getElementById("ecc").value;
+
+            var typeNumber = 0;
+            var qr = qrcode(typeNumber, ecc);
+            qr.addData(text);
+            qr.make();
+
+            var data = qr.createDataURL(scale * 2, margin);
+            
+            const img = new Image();
+            img.src = data;
+
+            await img.decode();
+
+            var pngDataUrl;
+
+            const canvas = document.createElement('canvas');
+            canvas.width = img.width;
+            canvas.height = img.height;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0);
+            data = canvas.toDataURL('image/png');
+
+            var element = document.createElement('img');
+            element.src = data
+
+            document.getElementById('qrcode').appendChild(element);
+        }
+
+        makeCode();
+
+        const myInput = document.getElementById('input');
+        myInput.addEventListener('input', (event) => {
+            document.getElementById("qrcode").innerHTML = "";
+            makeCode();
+        });        
+    </script>
+</body>
+
+<footer>
+    <div>Made with kazuhikoarase's <a href="https://github.com/kazuhikoarase/qrcode-generator/tree/master/js">qrcode-generator</a>.</div>
+</footer>
